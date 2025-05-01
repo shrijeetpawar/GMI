@@ -1,0 +1,84 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/app/_not-found/page-d77a8343bf60c330.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/css/8677b7879de62f9e.css",
+      "static/chunks/ee560e2c-ea37e8b1694e960f.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/874-6be9447f8c272205.js",
+      "static/chunks/app/layout-7ea2667d40361662.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/css/65aa3619a1925c9d.css",
+      "static/chunks/ee560e2c-ea37e8b1694e960f.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/874-6be9447f8c272205.js",
+      "static/chunks/866-f95e1a0f7e818798.js",
+      "static/chunks/app/page-86bc574891d86fa7.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/app/about-us/page-e298192b69930871.js"
+    ],
+    "/contact-us/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/app/contact-us/page-65842d930d71d084.js"
+    ],
+    "/infrastructure/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/app/infrastructure/page-a14400ced2bd163e.js"
+    ],
+    "/products/aluminium-de-oxidants/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/874-6be9447f8c272205.js",
+      "static/chunks/app/products/aluminium-de-oxidants/page-14fca4ec3b6e65d9.js"
+    ],
+    "/products/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/874-6be9447f8c272205.js",
+      "static/chunks/app/products/page-2136959df3092bed.js"
+    ],
+    "/products/aluminium-alloy-ingots/page": [
+      "static/chunks/webpack-1df21ef0284aee8e.js",
+      "static/chunks/4bd1b696-704dc55da575ac8d.js",
+      "static/chunks/684-7d5e88b68db8b4eb.js",
+      "static/chunks/main-app-45c6818a86ad33f1.js",
+      "static/chunks/63-a5a25efd69e19cb9.js",
+      "static/chunks/874-6be9447f8c272205.js",
+      "static/chunks/app/products/aluminium-alloy-ingots/page-da180fb39be67684.js"
+    ]
+  }
+}
