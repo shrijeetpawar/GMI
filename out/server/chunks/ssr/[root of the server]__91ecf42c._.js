@@ -102,7 +102,7 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-base font-semibold text-red-500 mb-2",
+                                className: "text-base font-semibold text-[#48c9b0] mb-2",
                                 children: "Ganpati Metal Industries"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Footer.tsx",
@@ -113,7 +113,7 @@ function Footer() {
                                 className: "flex items-start text-gray-400",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {
-                                        className: "mt-1 text-red-500 mr-2"
+                                        className: "mt-1 text-[#48c9b0] mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 24,
@@ -160,7 +160,7 @@ function Footer() {
                                 className: "flex items-center",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaPhone"], {
-                                        className: "text-red-500 mr-2"
+                                        className: "text-[#48c9b0] mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 36,
@@ -185,7 +185,7 @@ function Footer() {
                                 className: "flex items-center",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaEnvelope"], {
-                                        className: "text-red-500 mr-2"
+                                        className: "text-[#48c9b0] mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 40,
@@ -215,7 +215,7 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-base font-semibold text-red-500 mb-2",
+                                className: "text-base font-semibold text-[#48c9b0] mb-2",
                                 children: "Products"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Footer.tsx",
@@ -259,7 +259,7 @@ function Footer() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "/brochure.pdf",
                                 download: true,
-                                className: "inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded transition",
+                                className: "inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-4 py-2 rounded transition",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaFileAlt"], {
                                         className: "mr-2"
@@ -277,7 +277,7 @@ function Footer() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/contact-us#enquiry",
-                                className: "block text-red-400 hover:text-white underline",
+                                className: "block text-[#48c9b0] hover:text-white underline",
                                 children: "Enquire Now"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Footer.tsx",

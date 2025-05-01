@@ -42,7 +42,7 @@ function Home() {
         {
             id: 1,
             image: "/images/hero-slide-1.jpg",
-            title: "Aluminium For The Future Generations",
+            title: "Delivering Quality Aluminium Alloy for GDC & PDC Applications",
             subtitle: "Quality & Innovation"
         },
         {
@@ -200,7 +200,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/contact-us",
-                                        className: "inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded transition-colors",
+                                        className: "inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors",
                                         "data-aos": "fade-up",
                                         "data-aos-delay": "300",
                                         children: [
@@ -259,7 +259,7 @@ function Home() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/products",
-                                    className: "inline-flex items-center text-red-500 hover:text-red-600",
+                                    className: "inline-flex items-center text-[#02943E] hover:text-[#2b8f3a]",
                                     children: [
                                         "View All ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowRight"], {
@@ -322,7 +322,7 @@ function Home() {
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                 href: product.link,
-                                                                className: "inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded transition-colors",
+                                                                className: "inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors",
                                                                 children: [
                                                                     "Learn More ",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowRight"], {
@@ -371,7 +371,7 @@ function Home() {
                                                 }, 100);
                                             },
                                             "aria-label": `Go to product ${index + 1}`,
-                                            className: "jsx-f5661a465687b650" + " " + `w-3 h-3 rounded-full ${index === currentProductIndex ? 'bg-red-500' : 'bg-white bg-opacity-50'}`
+                                            className: "jsx-f5661a465687b650" + " " + `w-3 h-3 rounded-full ${index === currentProductIndex ? 'bg-[#48c9b0]' : 'bg-white bg-opacity-50'}`
                                         }, `indicator-${index}`, false, {
                                             fileName: "[project]/src/components/home/Homecomponent.tsx",
                                             lineNumber: 194,
@@ -428,7 +428,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/infrastructure",
-                                        className: "inline-flex items-center text-red-500 hover:text-red-600 font-medium",
+                                        className: "inline-flex items-center text-[#02943E] hover:text-[#2b8f3a] font-medium",
                                         children: [
                                             "Learn More ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowRight"], {
@@ -454,7 +454,7 @@ function Home() {
                                 "data-aos": "fade-left",
                                 className: "jsx-f5661a465687b650" + " " + "lg:w-1/2 relative",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-f5661a465687b650" + " " + "relative w-full h-[350px] bg-red-500 rounded-lg overflow-hidden shadow-lg",
+                                    className: "jsx-f5661a465687b650" + " " + "relative w-full h-[350px] bg-[#48c9b0] rounded-lg overflow-hidden shadow-lg",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/images/infrastructure.jpg",
                                         alt: "Ganpati Metal Industries Infrastructure",
@@ -575,7 +575,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "jsx-f5661a465687b650" + " " + "text-xl text-gray-600 mb-4",
-                                        children: "Aluminium For The Future Generations"
+                                        children: "Delivering Quality Aluminium Alloy for GDC & PDC Applications"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/Homecomponent.tsx",
                                         lineNumber: 280,
@@ -599,7 +599,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/about-us",
-                                        className: "inline-flex items-center text-red-500 hover:text-red-600 font-medium",
+                                        className: "inline-flex items-center text-[#02943E] hover:text-[#2b8f3a] font-medium",
                                         children: [
                                             "Learn More ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowRight"], {
@@ -707,7 +707,7 @@ function Home() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "jsx-f5661a465687b650" + " " + "text-xl text-red-500 mb-6",
+                                        className: "jsx-f5661a465687b650" + " " + "text-xl text-[#02943E] mb-6",
                                         children: "Shree N.D. Savant"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/Homecomponent.tsx",
@@ -774,7 +774,7 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "button",
                                         onClick: ()=>setActiveTab('whyChoose'),
-                                        className: "jsx-f5661a465687b650" + " " + `px-6 py-3 text-sm font-medium rounded-l-lg ${activeTab === 'whyChoose' ? 'bg-red-500 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`,
+                                        className: "jsx-f5661a465687b650" + " " + `px-6 py-3 text-sm font-medium rounded-l-lg ${activeTab === 'whyChoose' ? 'bg-[#48c9b0] text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`,
                                         children: "Why Choose Us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/Homecomponent.tsx",
@@ -784,7 +784,7 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "button",
                                         onClick: ()=>setActiveTab('qualityPolicy'),
-                                        className: "jsx-f5661a465687b650" + " " + `px-6 py-3 text-sm font-medium rounded-r-lg ${activeTab === 'qualityPolicy' ? 'bg-red-500 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`,
+                                        className: "jsx-f5661a465687b650" + " " + `px-6 py-3 text-sm font-medium rounded-r-lg ${activeTab === 'qualityPolicy' ? 'bg-[#48c9b0] text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`,
                                         children: "Quality Policy"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home/Homecomponent.tsx",
@@ -853,7 +853,7 @@ function Home() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             "data-aos": "fade-up",
-                                            className: "jsx-f5661a465687b650" + " " + "mt-16 p-8 bg-red-500 text-white rounded-lg shadow-lg",
+                                            className: "jsx-f5661a465687b650" + " " + "mt-16 p-8 bg-[#48c9b0] text-white rounded-lg shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "jsx-f5661a465687b650" + " " + "flex flex-col md:flex-row items-center justify-between",
                                                 children: [
@@ -1099,7 +1099,7 @@ function Home() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 "data-aos": "fade-up",
-                className: "jsx-f5661a465687b650" + " " + "w-full bg-red-500 text-white py-12",
+                className: "jsx-f5661a465687b650" + " " + "w-full bg-[#48c9b0] text-white py-12",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "jsx-f5661a465687b650" + " " + "container mx-auto px-4 lg:px-0 text-center",
                     children: [
@@ -1124,7 +1124,7 @@ function Home() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact-us",
-                                    className: "bg-white text-red-500 px-6 py-3 rounded font-medium hover:bg-gray-100 transition-colors",
+                                    className: "bg-white text-[#02943E] px-6 py-3 rounded font-medium hover:bg-gray-100 transition-colors",
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "100",
                                     children: "Contact Us"
@@ -1135,7 +1135,7 @@ function Home() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact-us#enquiry",
-                                    className: "bg-transparent border border-white text-white px-6 py-3 rounded font-medium hover:bg-white hover:text-red-500 transition-colors",
+                                    className: "bg-transparent border border-white text-white px-6 py-3 rounded font-medium hover:bg-white hover:text-[#02943E] transition-colors",
                                     "data-aos": "fade-up",
                                     "data-aos-delay": "200",
                                     children: "Request Quote"

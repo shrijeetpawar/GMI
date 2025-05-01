@@ -23,7 +23,7 @@ export default function Home() {
     {
       id: 1,
       image: "/images/hero-slide-1.jpg",
-      title: "Aluminium For The Future Generations",
+      title: "Delivering Quality Aluminium Alloy for GDC & PDC Applications",
       subtitle: "Quality & Innovation"
     },
     {
@@ -136,7 +136,7 @@ export default function Home() {
               </p>
               <Link
                 href="/contact-us"
-                className="inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded transition-colors"
+                className="inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -154,7 +154,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-800">Our Products</h2>
             <Link
               href="/products"
-              className="inline-flex items-center text-red-500 hover:text-red-600"
+              className="inline-flex items-center text-[#02943E] hover:text-[#2b8f3a]"
             >
               View All <FiArrowRight className="ml-2" />
             </Link>
@@ -180,7 +180,7 @@ export default function Home() {
                       <p className="text-xl mb-6">{product.description}</p>
                       <Link
                         href={product.link}
-                        className="inline-flex items-center bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded transition-colors"
+                        className="inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors"
                       >
                         Learn More <FiArrowRight className="ml-2" />
                       </Link>
@@ -200,7 +200,7 @@ export default function Home() {
                       setIsTransitioning(false);
                     }, 100);
                   }}
-                  className={`w-3 h-3 rounded-full ${index === currentProductIndex ? 'bg-red-500' : 'bg-white bg-opacity-50'}`}
+                  className={`w-3 h-3 rounded-full ${index === currentProductIndex ? 'bg-[#48c9b0]' : 'bg-white bg-opacity-50'}`}
                   aria-label={`Go to product ${index + 1}`}
                 />
               ))}
@@ -225,7 +225,7 @@ export default function Home() {
               </p>
               <Link
                 href="/infrastructure"
-                className="inline-flex items-center text-red-500 hover:text-red-600 font-medium"
+                className="inline-flex items-center text-[#02943E] hover:text-[#2b8f3a] font-medium"
               >
                 Learn More <FiArrowRight className="ml-2" />
               </Link>
@@ -233,7 +233,7 @@ export default function Home() {
 
             {/* Image Container */}
             <div className="lg:w-1/2 relative" data-aos="fade-left">
-              <div className="relative w-full h-[350px] bg-red-500 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-[350px] bg-[#48c9b0] rounded-lg overflow-hidden shadow-lg">
                 <Image
                   src="/images/infrastructure.jpg"
                   alt="Ganpati Metal Industries Infrastructure"
@@ -277,7 +277,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2" data-aos="fade-right">
               <h2 className="text-3xl font-bold text-gray-800 mb-8">About Us</h2>
-              <h3 className="text-xl text-gray-600 mb-4">Aluminium For The Future Generations</h3>
+              <h3 className="text-xl text-gray-600 mb-4">Delivering Quality Aluminium Alloy for GDC & PDC Applications</h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Ganpati Metal Industries was incorporated in the year 2010 under the strong leadership
                 of Shri. N.D. Savant. He laid the foundation of our business and played a crucial part
@@ -291,7 +291,7 @@ export default function Home() {
               </p>
               <Link
                 href="/about-us"
-                className="inline-flex items-center text-red-500 hover:text-red-600 font-medium"
+                className="inline-flex items-center text-[#02943E] hover:text-[#2b8f3a] font-medium"
               >
                 Learn More <FiArrowRight className="ml-2" />
               </Link>
@@ -326,7 +326,7 @@ export default function Home() {
             </div>
             <div className="lg:w-2/3 order-1 lg:order-2" data-aos="fade-left">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">MD's Message</h2>
-              <h3 className="text-xl text-red-500 mb-6">Shree N.D. Savant</h3>
+              <h3 className="text-xl text-[#02943E] mb-6">Shree N.D. Savant</h3>
               <h4 className="text-lg text-gray-600 mb-4">Founder of Ganpati Metal Industries</h4>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 I thank you for visiting our website which must have given you a broad insight
@@ -352,14 +352,14 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setActiveTab('whyChoose')}
-                className={`px-6 py-3 text-sm font-medium rounded-l-lg ${activeTab === 'whyChoose' ? 'bg-red-500 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
+                className={`px-6 py-3 text-sm font-medium rounded-l-lg ${activeTab === 'whyChoose' ? 'bg-[#48c9b0] text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
               >
                 Why Choose Us
               </button>
               <button
                 type="button"
                 onClick={() => setActiveTab('qualityPolicy')}
-                className={`px-6 py-3 text-sm font-medium rounded-r-lg ${activeTab === 'qualityPolicy' ? 'bg-red-500 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
+                className={`px-6 py-3 text-sm font-medium rounded-r-lg ${activeTab === 'qualityPolicy' ? 'bg-[#48c9b0] text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
               >
                 Quality Policy
               </button>
@@ -387,7 +387,7 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="mt-16 p-8 bg-red-500 text-white rounded-lg shadow-lg" data-aos="fade-up">
+              <div className="mt-16 p-8 bg-[#48c9b0] text-white rounded-lg shadow-lg" data-aos="fade-up">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                   <div className="mb-6 md:mb-0">
                     <h3 className="text-xl font-bold mb-2">40+ varied industry clients</h3>
@@ -476,7 +476,7 @@ export default function Home() {
       </section>
 
       {/* Contact CTA Section */}
-      <section className="w-full bg-red-500 text-white py-12" data-aos="fade-up">
+      <section className="w-full bg-[#48c9b0] text-white py-12" data-aos="fade-up">
         <div className="container mx-auto px-4 lg:px-0 text-center">
           <h2 className="text-2xl font-bold mb-4">Interested in our Products?</h2>
           <p className="mb-8 max-w-2xl mx-auto">
@@ -486,7 +486,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/contact-us"
-              className="bg-white text-red-500 px-6 py-3 rounded font-medium hover:bg-gray-100 transition-colors"
+              className="bg-white text-[#02943E] px-6 py-3 rounded font-medium hover:bg-gray-100 transition-colors"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -494,7 +494,7 @@ export default function Home() {
             </Link>
             <Link
               href="/contact-us#enquiry"
-              className="bg-transparent border border-white text-white px-6 py-3 rounded font-medium hover:bg-white hover:text-red-500 transition-colors"
+              className="bg-transparent border border-white text-white px-6 py-3 rounded font-medium hover:bg-white hover:text-[#02943E] transition-colors"
               data-aos="fade-up"
               data-aos-delay="200"
             >
