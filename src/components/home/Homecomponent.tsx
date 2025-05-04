@@ -84,12 +84,12 @@ export default function Home() {
 
   // Clients Data
   const clients = [
-    { id: 1, name: "Client 1", logo: "/images/clients/client1.png" },
-    { id: 2, name: "Client 2", logo: "/images/clients/client2.png" },
-    { id: 3, name: "Client 3", logo: "/images/clients/client3.png" },
-    { id: 4, name: "Client 4", logo: "/images/clients/client4.png" },
-    { id: 5, name: "Client 5", logo: "/images/clients/client5.png" },
-    { id: 6, name: "Client 6", logo: "/images/clients/client6.png" },
+    { id: 1, name: "Client 1", logo: "E:/notes/Project/GMI/out/images/clients/clients1.png" },
+    { id: 2, name: "Client 2", logo: "/images/clients/clients2.png" },
+    { id: 3, name: "Client 3", logo: "/images/clients/clients3.png" },
+    { id: 4, name: "Client 4", logo: "/images/clients/clients4.png" },
+    { id: 5, name: "Client 5", logo: "/images/clients/clients5.png" },
+    { id: 6, name: "Client 6", logo: "/images/clients/clients6.png" },
   ];
 
   // State for product carousel
@@ -118,7 +118,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="w-full relative bg-gray-100 overflow-hidden" data-aos="fade">
-        <div className="relative h-[500px] w-full">
+        <div className="hero-section">
           <Image
             src="/images/facility-4.jpg"
             alt="GMI"
@@ -126,7 +126,7 @@ export default function Home() {
             priority
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center">
+          <div className="hero-overlay">
             <div className="container mx-auto px-4 text-white">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 max-w-2xl">
                 Aluminium For The Future Generations
@@ -136,7 +136,7 @@ export default function Home() {
               </p>
               <Link
                 href="/contact-us"
-                className="inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors"
+                className="inline-flex items-center bg-[#00AC3C] hover:bg-[#00953C] text-white px-6 py-3 rounded transition-colors"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -165,7 +165,7 @@ export default function Home() {
             {products.map((product, index) => (
               <div
                 key={product.id}
-                className={`absolute inset-0 transition-opacity duration-500 ${index === currentProductIndex ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                className={`product-carousel-item ${index === currentProductIndex ? 'active' : 'inactive'}`}
               >
                 <div className="relative h-full w-full">
                   <Image
@@ -174,13 +174,13 @@ export default function Home() {
                     fill
                     className="object-cover"
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                  <div className="product-overlay">
                     <div className="text-center text-white p-8 max-w-2xl">
                       <h3 className="text-3xl font-bold mb-4">{product.name}</h3>
                       <p className="text-xl mb-6">{product.description}</p>
                       <Link
                         href={product.link}
-                        className="inline-flex items-center bg-[#48c9b0] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors"
+                        className="inline-flex items-center bg-[#00AC3C] hover:bg-[#3ab19b] text-white px-6 py-3 rounded transition-colors"
                       >
                         Learn More <FiArrowRight className="ml-2" />
                       </Link>
@@ -200,7 +200,7 @@ export default function Home() {
                       setIsTransitioning(false);
                     }, 100);
                   }}
-                  className={`w-3 h-3 rounded-full ${index === currentProductIndex ? 'bg-[#48c9b0]' : 'bg-white bg-opacity-50'}`}
+                  className={`carousel-indicator ${index === currentProductIndex ? 'active' : 'inactive'}`}
                   aria-label={`Go to product ${index + 1}`}
                 />
               ))}
@@ -233,7 +233,7 @@ export default function Home() {
 
             {/* Image Container */}
             <div className="lg:w-1/2 relative" data-aos="fade-left">
-              <div className="relative w-full h-[350px] bg-[#48c9b0] rounded-lg overflow-hidden shadow-lg">
+              <div className="infrastructure-image">
                 <Image
                   src="/images/infrastructure.jpg"
                   alt="Ganpati Metal Industries Infrastructure"
@@ -257,7 +257,7 @@ export default function Home() {
             {facilities.map((facility, index) => (
               <div
                 key={`facility-${index}`}
-                className="p-6 bg-gray-50 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 rounded-lg"
+                className="facility-card"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
@@ -297,7 +297,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="lg:w-1/2 relative" data-aos="fade-left">
-              <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
+              <div className="about-image">
                 <Image
                   src="/images/MD.jpg"
                   alt="Ganpati Metal Industries Facility"
@@ -315,7 +315,7 @@ export default function Home() {
         <div className="container mx-auto px-4 lg:px-0">
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/3 order-2 lg:order-1" data-aos="fade-right">
-              <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
+              <div className="about-image">
                 <Image
                   src="/images/MD.jpg"
                   alt="Shree N.D. Savant - Founder"
@@ -352,24 +352,24 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setActiveTab('whyChoose')}
-                className={`px-6 py-3 text-sm font-medium rounded-l-lg ${activeTab === 'whyChoose' ? 'bg-[#48c9b0] text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
+                className={`tab-button left ${activeTab === 'whyChoose' ? 'active' : 'inactive'}`}
               >
                 Why Choose Us
               </button>
               <button
                 type="button"
                 onClick={() => setActiveTab('qualityPolicy')}
-                className={`px-6 py-3 text-sm font-medium rounded-r-lg ${activeTab === 'qualityPolicy' ? 'bg-[#48c9b0] text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}
+                className={`tab-button right ${activeTab === 'qualityPolicy' ? 'active' : 'inactive'}`}
               >
                 Quality Policy
               </button>
             </div>
           </div>
 
-          <div className="relative min-h-[400px]">
+          <div className="relative">
             {/* Why Choose Us Content */}
             <div 
-              className={`transition-all duration-500 ${activeTab === 'whyChoose' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`}
+              className={`tab-content ${activeTab === 'whyChoose' ? 'visible' : 'hidden'}`}
               data-aos="fade-up"
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Why Choose Us</h2>
@@ -377,7 +377,7 @@ export default function Home() {
                 {qualities.map((item, index) => (
                   <div
                     key={`quality-${index}`}
-                    className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 text-center"
+                    className="quality-card"
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                   >
@@ -387,7 +387,7 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="mt-16 p-8 bg-[#48c9b0] text-white rounded-lg shadow-lg" data-aos="fade-up">
+              <div className="stats-banner" data-aos="fade-up">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                   <div className="mb-6 md:mb-0">
                     <h3 className="text-xl font-bold mb-2">40+ varied industry clients</h3>
@@ -409,7 +409,7 @@ export default function Home() {
 
             {/* Quality Policy Content */}
             <div 
-              className={`transition-all duration-500 ${activeTab === 'qualityPolicy' ? 'opacity-100 visible' : 'opacity-0 invisible absolute'}`}
+              className={`tab-content ${activeTab === 'qualityPolicy' ? 'visible' : 'hidden'}`}
               data-aos="fade-up"
             >
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -428,7 +428,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex items-center justify-center">
-                  <div className="relative w-full h-[300px] rounded-lg overflow-hidden shadow-lg">
+                  <div className="about-image">
                     <Image
                       src="/images/quality-control.jpg"
                       alt="Quality Control at Ganpati Metal Industries"
@@ -451,14 +451,14 @@ export default function Home() {
           </h2>
           
           <div className="relative">
-            <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
-            <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-gray-50 to-transparent z-10"></div>
+            <div className="client-gradient-left"></div>
+            <div className="client-gradient-right"></div>
             
             <div className="flex py-4 animate-marquee whitespace-nowrap">
               {[...clients, ...clients].map((client, index) => (
                 <div 
                   key={`${client.id}-${index}`} 
-                  className="flex-shrink-0 mx-8 w-40 h-20 bg-white p-4 flex items-center justify-center rounded-lg shadow-sm"
+                  className="client-logo-container"
                 >
                   <div className="relative w-full h-full">
                     <Image 
@@ -476,7 +476,7 @@ export default function Home() {
       </section>
 
       {/* Contact CTA Section */}
-      <section className="w-full bg-[#48c9b0] text-white py-12" data-aos="fade-up">
+      <section className="w-full bg-[#00AC3C] text-white py-12" data-aos="fade-up">
         <div className="container mx-auto px-4 lg:px-0 text-center">
           <h2 className="text-2xl font-bold mb-4">Interested in our Products?</h2>
           <p className="mb-8 max-w-2xl mx-auto">
@@ -503,17 +503,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Add custom animations in global CSS */}
-      <style jsx global>{`
-        @keyframes marquee {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-        .animate-marquee {
-          animation: marquee 30s linear infinite;
-        }
-      `}</style>
     </>
   );
 }

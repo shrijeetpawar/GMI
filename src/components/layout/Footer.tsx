@@ -19,7 +19,7 @@ export function Footer() {
        
         {/* Address */}
         <div>
-          <h3 className="text-base font-semibold text-[#48c9b0] mb-2">Ganpati Metal Industries</h3>
+        <h3 className="text-base font-semibold text-brand-primary mb-2">Ganpati Metal Industries</h3>
           <div className="flex items-start text-gray-400">
             <FaMapMarkerAlt className="mt-1 text-[#48c9b0] mr-2" />
             <p className="leading-snug">
@@ -46,7 +46,7 @@ export function Footer() {
 
         {/* Products */}
         <div>
-          <h3 className="text-base font-semibold text-[#48c9b0] mb-2">Products</h3>
+        <h3 className="text-base font-semibold text-brand-primary mb-2">Products</h3>
           <ul className="space-y-1">
             {productLinks.map((link) => (
               <li key={link.href}>
